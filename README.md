@@ -31,10 +31,7 @@ Installer [Docker](https://www.docker.com)
 ## INSTALLATION
 
 ```
-mkdir $HOME/pidgin
-```
-```
-docker run -d --name pidgin -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ${HOME}/pidgin:/home/pidgin/.purple -e DISPLAY alexandreoda/pidgin
+docker run -d --name pidgin -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ${HOME}:/home/pidgin -e DISPLAY alexandreoda/pidgin
 ```
 
 
