@@ -26,6 +26,6 @@ echo "forward-socks4 / localhost:9050 ." | sudo tee -a /etc/privoxy/config && \
 echo "forward-socks4a / localhost:9050 ." | sudo tee -a /etc/privoxy/config && \
 echo "SOCKSPort localhost:9050" | sudo tee -a /etc/tor/torcc
 
-RUN apt-get --purge autoremove -y
+RUN sudo apt-get --purge autoremove -y
 
 CMD sudo service tor start && sudo service privoxy start && pidgin -f
