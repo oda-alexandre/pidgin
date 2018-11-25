@@ -1,6 +1,6 @@
 # PIDGIN
 
-![pidgin](https://raw.githubusercontent.com/oda-alexandre/pidgin/master/logo-pidgin.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/pidgin/master/logo-docker.png)
+![pidgin](https://raw.githubusercontent.com/oda-alexandre/pidgin/master/img/logo-pidgin.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/pidgin/master/img/logo-docker.png)
 
 
 ## INDEX
