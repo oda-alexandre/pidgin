@@ -1,6 +1,6 @@
 # PIDGIN
 
-![pidgin](https://raw.githubusercontent.com/oda-alexandre/pidgin/master/img/logo-pidgin.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/pidgin/master/img/logo-docker.png)
+<img src="http://pngimg.com/uploads/opers/opers_PNG15.png" />
 
 
 ## INDEX
@@ -13,9 +13,9 @@
 - [License](#LICENSE)
 
 
-## Badges
+## BADGES
 
-[![pidgin docker build](https://img.shields.io/docker/build/alexandreoda/pidgin.svg)](https://hub.docker.com/r/alexandreoda/pidgin)
+[![pipeline status](https://gitlab.com/oda-alexandre/pidgin/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/pidgin/commits/master)
 
 
 ## INTRODUCTION
