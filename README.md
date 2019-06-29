@@ -7,9 +7,9 @@
 
 - [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
-- [Prerequis](#PREREQUIS)
-- [Installation](#INSTALLATION)
-- [Configuration](#CONFIGURATION)
+- [Prerequisites](#PREREQUISITESITES)
+- [Install](#INSTALL)
+- [Configuration](#CONFIG)
 - [License](#LICENSE)
 
 
@@ -20,55 +20,65 @@
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de [Pidgin](https://pidgin.io/) pour [docker](https://www.docker.com), mis à jour automatiquement dans le [docker hub](https://hub.docker.com/r/alexandreoda/pidgin/) public.
+Docker image of :
+
+- [Pidgin](https://pidgin.io/)
+
+Continuous integration on :
+
+- [gitlab](https://gitlab.com/oda-alexandre/pidgin/pipelines)
+
+Automatically updated on :
+
+- [docker hub public](https://hub.docker.com/r/alexandreoda/pidgin/)
 
 
-## PREREQUIS
+## PREREQUISITES
 
-Installer [docker](https://www.docker.com)
+Use [docker](https://www.docker.com)
 
 
-## INSTALLATION
+## INSTALL
 
 ```
 docker run -d --name pidgin -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ${HOME}:/home/pidgin -e DISPLAY alexandreoda/pidgin
 ```
 
 
-## CONFIGURATION
+## CONFIG
 
-Pour creer un compte XMPP en .onion utilisez tor-browser et suivre ce lien libertygb2nyeyay.onion:5280/register_web
+To create an XMPP account in .onion use tor-browser and follow this link libertygb2nyeyay.onion:5280/register_web
 
 
-1 - DANS PIDGIN / OUTILS / PREFERENCES / PROXY
+1 -  IN  PIDGIN / TOOLS / PREFERENCES / PROXY
 
-(cocher) utiliser une DNS avec SOCKS4
+(check) Use a DNS with SOCKS4
 
-Type de proxy : Tor/Privacy (SOCKS5)
+Type of proxy : Tor/Privacy (SOCKS5)
 Hote          : 127.0.0.1
 Port          : 9050
-Utilisateur   : laisser vide
-Mot de passe  : laisser vide
+User          : leave empty
+Password      : leave empty
 
 
-2 - ACCEPTEZ LE CERTIFICAT
+2 - ACCEPT THE CERTIFICATE
 
 
-3 - DANS PIDGIN / OUTILS / PLUGINS
+3 -  IN  PIDGIN / TOOLS / PLUGINS
 
-(cocher) Messagerie Confidentielle Off te Record
+(check) Confidential Messaging Off the Record
 
 
-4 - CHOISIR CONFIGURER LE PLUGIN (a coter de fermer)
+4 - CHOICE CONFIGURE THE PLUGIN (next to of closed)
 
-(cliquer) sur produire
-(cocher) Exiger messagerie privee
+(clic) on produce
+(check) Require private messaging
 
-DANS VOS CONVERSATIONS CLIQUER SUR NON-PRIVE / NON-VERIFIER / AUTHENTIFIER LE CONTACT
+IN YOUR CONVERSATIONS CLICK ON NO-PRIVATE / NO-CHECK / AUTHENTIFIER THE CONTACT
 
-(votre interlocuteur devras faire pareil de son cote)
+(your interlocutor will have to do the same for him)
 
 
 ## LICENSE
 
-[![GPLv3+](http://gplv3.fsf.org/gplv3-127x51.png)](https://github.com/oda-alexandre/pidgin/blob/master/LICENSE)
+[![GPLv3+](http://gplv3.fsf.org/gplv3-127x51.png)](https://gitlab.com/oda-alexandre/pidgin/blob/master/LICENSE)
