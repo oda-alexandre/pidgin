@@ -1,6 +1,6 @@
 # PIDGIN
 
-<img src="http://pngimg.com/uploads/opers/opers_PNG15.png" />
+<img src="http://pngimg.com/uploads/opers/opers_PNG15.png" width="200" height="200"/>
 
 
 ## INDEX
