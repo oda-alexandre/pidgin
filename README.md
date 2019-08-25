@@ -2,7 +2,6 @@
 
 <img src="http://pngimg.com/uploads/opers/opers_PNG15.png" width="200" height="200"/>
 
-
 ## INDEX
 
 - [Badges](#BADGES)
@@ -12,11 +11,9 @@
 - [Configuration](#CONFIG)
 - [License](#LICENSE)
 
-
 ## BADGES
 
 [![pipeline status](https://gitlab.com/oda-alexandre/pidgin/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/pidgin/commits/master)
-
 
 ## INTRODUCTION
 
@@ -32,23 +29,17 @@ Automatically updated on :
 
 - [docker hub public](https://hub.docker.com/r/alexandreoda/pidgin/)
 
-
 ## PREREQUISITES
 
 Use [docker](https://www.docker.com)
 
-
 ## INSTALL
 
-```
-docker run -d --name pidgin -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ${HOME}:/home/pidgin -e DISPLAY alexandreoda/pidgin
-```
-
+```docker run -d --name pidgin -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ${HOME}:/home/pidgin -e DISPLAY alexandreoda/pidgin```
 
 ## CONFIG
 
 To create an XMPP account in .onion use tor-browser and follow this link libertygb2nyeyay.onion:5280/register_web
-
 
 1 -  IN  PIDGIN / TOOLS / PREFERENCES / PROXY
 
@@ -60,14 +51,11 @@ Port          : 9050
 User          : leave empty
 Password      : leave empty
 
-
 2 - ACCEPT THE CERTIFICATE
-
 
 3 -  IN  PIDGIN / TOOLS / PLUGINS
 
 (check) Confidential Messaging Off the Record
-
 
 4 - CHOICE CONFIGURE THE PLUGIN (next to of closed)
 
@@ -77,7 +65,6 @@ Password      : leave empty
 IN YOUR CONVERSATIONS CLICK ON NO-PRIVATE / NO-CHECK / AUTHENTIFIER THE CONTACT
 
 (your interlocutor will have to do the same for him)
-
 
 ## LICENSE
 
