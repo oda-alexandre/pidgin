@@ -1,11 +1,11 @@
 FROM debian:stretch-slim
 
-MAINTAINER https://www.oda-alexandre.com/
+LABEL authors https://www.oda-alexandre.com/
 
 ENV USER pidgin
 
 RUN echo -e '\033[36;1m ******* INSTALL APP ******** \033[0m' && \
-apt-get update && apt-get install -y \
+apt update && apt install -y \
 sudo \
 pidgin \
 pidgin-otr \
