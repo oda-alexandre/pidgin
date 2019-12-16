@@ -4,12 +4,14 @@
 
 ## INDEX
 
-- [Badges](#BADGES)
-- [Introduction](#INTRODUCTION)
-- [Prerequisites](#PREREQUISITESITES)
-- [Install](#INSTALL)
-- [Configuration](#CONFIG)
-- [License](#LICENSE)
+- [PIDGIN](#pidgin)
+  - [INDEX](#index)
+  - [BADGES](#badges)
+  - [INTRODUCTION](#introduction)
+  - [PREREQUISITES](#prerequisites)
+  - [INSTALL](#install)
+  - [CONFIG](#config)
+  - [LICENSE](#license)
 
 ## BADGES
 
