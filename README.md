@@ -1,6 +1,6 @@
 # PIDGIN
 
-<img src="http://pngimg.com/uploads/opers/opers_PNG15.png" width="200" height="200"/>
+<img src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/12904468/Pidgin.svg.png" width="200" height="200"/>
 
 ## INDEX
 
