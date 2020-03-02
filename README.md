@@ -2,20 +2,29 @@
 
 <img src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/12904468/Pidgin.svg.png" width="200" height="200"/>
 
+
 ## INDEX
 
 - [PIDGIN](#pidgin)
   - [INDEX](#index)
   - [BADGES](#badges)
+  - [FIRST UPDATE](#first-update)
   - [INTRODUCTION](#introduction)
   - [PREREQUISITES](#prerequisites)
   - [INSTALL](#install)
   - [CONFIG](#config)
   - [LICENSE](#license)
 
+
 ## BADGES
 
 [![pipeline status](https://gitlab.com/oda-alexandre/pidgin/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/pidgin/commits/master)
+
+
+## FIRST UPDATE
+
+Date: 01-01-01
+
 
 ## INTRODUCTION
 
@@ -31,13 +40,16 @@ Automatically updated on :
 
 - [docker hub public](https://hub.docker.com/r/alexandreoda/pidgin/)
 
+
 ## PREREQUISITES
 
 Use [docker](https://www.docker.com)
 
+
 ## INSTALL
 
 ```docker run -d --name pidgin -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ${HOME}:/home/pidgin -e DISPLAY alexandreoda/pidgin```
+
 
 ## CONFIG
 
@@ -67,6 +79,7 @@ Password      : leave empty
 IN YOUR CONVERSATIONS CLICK ON NO-PRIVATE / NO-CHECK / AUTHENTIFIER THE CONTACT
 
 (your interlocutor will have to do the same for him)
+
 
 ## LICENSE
 
