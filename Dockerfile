@@ -4,20 +4,15 @@ LABEL authors https://www.oda-alexandre.com
 
 ENV USER pidgin
 ENV HOME /home/${USER}
-ENV LOCALES fr_FR.UTF-8
 
 RUN echo -e '\033[36;1m ******* INSTALL APP ******** \033[0m' && \
   apt-get update && apt-get install -y \
-  locales \
   sudo \
   pidgin \
   pidgin-otr \
   tor \
   privoxy \
   libcanberra-gtk-module
-
-RUN echo -e '\033[36;1m ******* CHANGE LOCALES ******** \033[0m' && \
-  locale-gen ${LOCALES}
   
 RUN echo -e '\033[36;1m ******* ADD USER ******** \033[0m' && \
   useradd -d ${HOME} -m ${USER} && \
