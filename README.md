@@ -10,6 +10,8 @@
   - [INTRODUCTION](#introduction)
   - [PREREQUISITES](#prerequisites)
   - [INSTALL](#install)
+    - [DOCKER RUN](#docker-run)
+    - [DOCKER COMPOSE](#docker-compose)
   - [CONFIG](#config)
   - [LICENSE](#license)
 
@@ -25,7 +27,7 @@ Docker image of :
 
 Continuous integration on :
 
-- [gitlab](https://gitlab.com/oda-alexandre/pidgin/pipelines)
+- [gitlab pipelines](https://gitlab.com/oda-alexandre/pidgin/pipelines)
 
 Automatically updated on :
 
@@ -37,7 +39,26 @@ Use [docker](https://www.docker.com)
 
 ## INSTALL
 
-```docker run -d --name pidgin -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ${HOME}:/home/pidgin -e DISPLAY alexandreoda/pidgin```
+### DOCKER RUN
+
+```docker run -d --name pidgin -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ${HOME}:/home/pidgin -e DISPLAY alexandreoda/pidgin
+```
+
+### DOCKER COMPOSE
+
+```yml
+version: "3.7"
+
+services:
+  pidgin:
+    container_name: pidgin
+    image: alexandreoda/pidgin
+    restart: "no"
+    privileged: false
+    volumes:
+      - "${HOME}:/home/pidgin"
+      - "/tmp/.X11-unix/:/tmp/.X11-unix/"
+```
 
 ## CONFIG
 
