@@ -2,8 +2,6 @@
 
 ![logo](https://assets.gitlab-static.net/uploads/-/system/project/avatar/12904468/Pidgin.svg.png)
 
-## INDEX
-
 - [PIDGIN](#pidgin)
   - [INDEX](#index)
   - [BADGES](#badges)
@@ -37,7 +35,7 @@ Automatically updated on :
 
 Use [docker](https://www.docker.com)
 
-## INSTALL
+## BUILD
 
 ### DOCKER RUN
 
